@@ -1,8 +1,7 @@
 ﻿name: Run Unit Test on Push
 on:
     push:
-        branches:
-              - main
+    pull_request:
 
 jobs:
     build:
